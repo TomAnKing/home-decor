@@ -1,0 +1,125 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-image: repeating-linear-gradient(
+      45deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      112.5deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      22.5deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      67.5deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      157.5deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      112.5deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      67.5deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(253, 0%, 98%, 0.03) 0px,
+      hsla(253, 0%, 98%, 0.03) 1px,
+      transparent 1px,
+      transparent 12px
+    ),
+    linear-gradient(90deg, rgb(218, 232, 230), rgb(131, 156, 151));
+}
+
+.navbar {
+  background-color: #dae8e6 !important;
+  height: 120px;
+  font-size: 25px;
+  font-family: "Lato";
+}
+.navbar-nav {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.nav-link {
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #3a4f4c !important;
+}
+
+.nav-link:hover {
+  color: #9c8a83 !important;
+}
+
+.navbar-brand img {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+}
