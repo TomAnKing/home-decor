@@ -1,0 +1,19 @@
+.bg-light {
+  background-color: getColour(secondary-colour) !important;
+  padding: 2%;
+}
+
+.navbar {
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand {
+  height: 100px;
+  width: auto;
+}
