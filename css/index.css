@@ -1,99 +1,37 @@
 html,
 body {
-  height: 100%;
   margin: 0;
-  background-image: repeating-linear-gradient(
-      45deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* Background pattern from Gradient Magic at https://www.gradientmagic.com/collection/lightbg/gradient/1584621486136*/
+  background-image: repeating-radial-gradient(
+      circle at center center,
+      transparent 0px,
+      transparent 2px,
+      rgba(0, 0, 0, 0.03) 2px,
+      rgba(0, 0, 0, 0.03) 3px,
+      transparent 3px,
+      transparent 5px,
+      rgba(0, 0, 0, 0.03) 5px,
+      rgba(0, 0, 0, 0.03) 7px
     ),
-    repeating-linear-gradient(
-      112.5deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      22.5deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      67.5deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      157.5deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      112.5deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      135deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      67.5deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      135deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      hsla(253, 0%, 98%, 0.03) 0px,
-      hsla(253, 0%, 98%, 0.03) 1px,
-      transparent 1px,
-      transparent 12px
-    ),
-    linear-gradient(90deg, rgb(218, 232, 230), rgb(131, 156, 151));
+    repeating-radial-gradient(
+      circle at center center,
+      rgb(255, 255, 255) 0px,
+      rgb(255, 255, 255) 9px,
+      rgb(255, 255, 255) 9px,
+      rgb(255, 255, 255) 21px,
+      rgb(255, 255, 255) 21px,
+      rgb(255, 255, 255) 31px,
+      rgb(255, 255, 255) 31px,
+      rgb(255, 255, 255) 40px
+    );
+  background-size: 20px 20px;
+}
+
+.wrapper {
+  flex: 1 0 auto;
 }
 
 .navbar {
@@ -102,6 +40,7 @@ body {
   font-size: 25px;
   font-family: "Lato";
 }
+
 .navbar-nav {
   position: absolute;
   left: 50%;
@@ -118,8 +57,129 @@ body {
   color: #9c8a83 !important;
 }
 
+.active {
+  color: #9c8a83 !important;
+}
+
 .navbar-brand img {
-  height: 100px;
-  width: 100px;
-  margin-left: 50px;
+  height: 80px;
+  width: 80px;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #9c8a83;
+  color: white;
+  text-align: center;
+}
+
+.icons {
+  font-size: 35px;
+  padding: 1%;
+}
+
+.fab {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.carousel-inner {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #3a4f4c;
+  font-size: 40px;
+  margin-left: 15%;
+  font-family: "Playfull Afair";
+  margin-top: 25px;
+}
+
+.welcomeText {
+  width: 70%;
+  margin-left: 15%;
+  font-family: "Lato";
+  color: #3a4f4c;
+}
+
+h2 {
+  color: #3a4f4c;
+  font-family: "Playfull Afair";
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+.shopContainer {
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+.shopImg {
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.shopContainer img {
+  width: 33%;
+  padding: 1%;
+  height: auto;
+}
+
+.shopContainer a {
+  font-family: "Lato";
+  background-color: #9c8a83;
+  color: white;
+  padding: 1%;
+  text-decoration: none;
+  width: 300px;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #3a4f4c;
+  font-family: "Playfull Afair";
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+.collectionText {
+  width: 70%;
+  margin-left: 15%;
+  font-family: "Lato";
+  color: #3a4f4c;
+}
+
+.collectionsBtn {
+  font-family: "Lato";
+  background-color: #9c8a83;
+  color: white;
+  padding: 1%;
+  text-decoration: none;
+  width: 300px;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+.collectionsBtn:hover {
+  text-decoration: none;
+  color: white;
+}
+.colletionImg {
+  width: 70%;
+  margin-left: 15%;
+}
+.colletionImg img {
+  width: 49%;
+  height: auto;
 }
