@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+}
+
+.headerImg {
+  background-image: url("/background3.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(60%);
+  height: 530px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 120px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+h1 {
+  margin-left: 15%;
+}
+
+.productsText {
+  width: 70%;
+  margin-left: 15%;
+  font-family: "Lato";
+  color: #3a4f4c;
+}
+
+.productContainer {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 40px;
+  background-color: white;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.productContainer p {
+  font-size: 30px;
+  font-family: "Lato";
+  margin-left: 20px;
+  color: #3a4f4c;
+}
+
+.productIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heartIcon {
+  width: 50px !important;
+  display: inline;
+  padding: 3px;
+  padding-bottom: 30px;
+}
+
+.heartIcon:hover {
+  cursor: pointer;
+}
+
+.product {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 40px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product p {
+  font-size: 22px;
+  font-family: "Lato";
+  margin-left: 15px;
+  text-align: center;
+  color: #3a4f4c;
+}
