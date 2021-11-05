@@ -38,7 +38,7 @@ body {
   background-color: #dae8e6 !important;
   height: 120px;
   font-size: 25px;
-  font-family: "Lato";
+  font-family: "Manrope", sans-serif;
 }
 
 .navbar-nav {
@@ -93,20 +93,20 @@ h1 {
   color: #3a4f4c;
   font-size: 40px;
   margin-left: 15%;
-  font-family: "Playfull Afair";
+  font-family: "Zen Antique", serif;
   margin-top: 25px;
 }
 
 .welcomeText {
   width: 70%;
   margin-left: 15%;
-  font-family: "Lato";
+  font-family: "Manrope", sans-serif;
   color: #3a4f4c;
 }
 
 h2 {
   color: #3a4f4c;
-  font-family: "Playfull Afair";
+  font-family: "Zen Antique", serif;
   margin-left: 15%;
   margin-top: 50px;
 }
@@ -129,13 +129,13 @@ h2 {
 }
 
 .shopContainer a {
-  font-family: "Lato";
+  font-family: "Rubik", sans-serif;
   background-color: #9c8a83;
   color: white;
   padding: 1%;
   text-decoration: none;
   width: 300px;
-  font-size: 20px;
+  font-size: 24px;
   display: block;
   margin: auto;
   text-align: center;
@@ -145,7 +145,7 @@ h2 {
 
 h3 {
   color: #3a4f4c;
-  font-family: "Playfull Afair";
+  font-family: "Zen Antique", serif;
   margin-left: 15%;
   margin-top: 50px;
 }
@@ -153,18 +153,18 @@ h3 {
 .collectionText {
   width: 70%;
   margin-left: 15%;
-  font-family: "Lato";
+  font-family: "Manrope", sans-serif;
   color: #3a4f4c;
 }
 
 .collectionsBtn {
-  font-family: "Lato";
+  font-family: "Rubik", sans-serif;
   background-color: #9c8a83;
   color: white;
   padding: 1%;
   text-decoration: none;
   width: 300px;
-  font-size: 20px;
+  font-size: 24px;
   display: block;
   margin: auto;
   text-align: center;
